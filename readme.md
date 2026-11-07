@@ -18,3 +18,8 @@ This is perfect for internal tools, dashboards, micro SaaS, and utility applicat
 # Some gotchas
 - When setting up `React Router`, a refresh would trigger the express `Cannot get /path`, so to fix this im adding a catch all route at the end of the server file.
 - In this demo im using `await esbuild.buid()` to bundle up, not ideal for CI / CD though, in which case I would use a `npm run build` script - https://esbuild.github.io/getting-started/#build-scripts
+
+# Usage
+1. Install dependencies with `npm install`
+2. Run with `npm start`
+3. Visit `http://localhost:3000`, where you'll see a react application running with react router.
