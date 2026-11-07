@@ -1,0 +1,19 @@
+.style {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.style a {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.style a:hover {
+    text-decoration: none;
+    color: rgb(107, 4, 210);
+}
+
+.subtitle {
+    color: rgb(196, 226, 151);
+}

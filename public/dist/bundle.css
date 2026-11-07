@@ -1,0 +1,17 @@
+/* src/App.module.css */
+.App_style {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.App_style a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+.App_style a:hover {
+  text-decoration: none;
+  color: rgb(107, 4, 210);
+}
+.App_subtitle {
+  color: rgb(196, 226, 151);
+}
